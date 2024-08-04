@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.play{
+    font-size: 2rem;
+    width: 10rem;
+    margin-left: 45rem;
+    text-align: center;
+    background-color: blue;
+    padding: 1rem;
+    border: 0.3rem black solid;
+    border-radius: 2rem ;
+}
+.play:hover{
+    color: aliceblue;
+    border-color: peru;
+}
+.choices{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+img{
+    width: 20rem;
+}
+img:hover{
+    border: 0.3rem solid black;
+    border-radius: 2rem;
+}
+.results{
+    font-size: 2rem;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outcome-class{
+    font-size: 2rem;
+    margin-top: 2rem;
+    width: 32rem;
+    text-align: center;
+    margin-left: 35rem;
+    background-color: grey;
+    border: 0.3rem black solid;
+    border-radius: 2rem ;
+}
